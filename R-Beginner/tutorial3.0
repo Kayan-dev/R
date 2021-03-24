@@ -1,0 +1,99 @@
+#logical:
+#TRUE T
+#FALSE F
+
+4 < 5
+10 > 100
+4 = 5
+4 == 5
+# ==
+# !=
+# <
+# >
+# <=
+# >=
+# !
+# |
+# &
+# !TRUE(x)
+# isTRUE()
+
+result <- 4 < 5
+result
+typeof(result)
+
+result2 <- !TRUE
+result2
+
+result | result2
+result & result2
+var1 <- 5 + 5
+var1
+result2
+result
+typeof(var1)
+result3 <- (5-1)
+result3
+result4 <- !(5-1)
+result4
+
+result | result2
+
+result2 | result
+result & result2
+result & result
+
+isTRUE(result)
+isTRUE(result2)
+typeof(result3)
+result5 <- 5L
+typeof(result5)
+result6 <- 5L + 12L
+typeof(result6)
+
+while(TRUE){
+  print("hello")
+}
+
+
+counter <- 1
+while(counter < 12){
+  print(counter)
+  counter <- counter + 1
+}
+
+while(counter < 15){
+  print(counter)
+  counter <- counter + 1
+}
+
+counter <- 22
+while(counter <= 100){
+  print(counter)
+  counter <- counter + 1
+}
+counter 
+
+x <- 5
+x
+result(x)
+t <- 1
+a <- 2
+result
+a
+
+for(i in 1:5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
